@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import styles from "./Gallery.module.css";
-import { ProjectProps } from "../../../../types";
+import { ProjectProps } from "@/types";
 import Modal from "../modal/Modal";
 
 const Project: React.FC<ProjectProps> = ({ index, title, setModal }) => {
