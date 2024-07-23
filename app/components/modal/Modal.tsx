@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Styles from "./Modal.module.css";
-import { ModalProps } from "../../../../types";
+import { ModalProps } from "@/types";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import gsap from "gsap";

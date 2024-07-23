@@ -1,7 +1,6 @@
 import React from "react";
 import Styles from "./Header.module.css";
 import { EB_Garamond, Open_Sans } from "next/font/google";
-import Video from "next-video";
 import Image from "next/image";
 import CopyrightIcon from "../icons/Copyright";
 

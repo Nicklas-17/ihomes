@@ -5,7 +5,7 @@ import Styles from "./Gallery.module.css";
 import Link from "next/link";
 import { useState } from "react";
 import Project from "./project";
-import { GalleryState, ModalState } from "../../../../types";
+import { GalleryState, ModalState } from "@/types";
 import Modal from "../modal/Modal";
 
 const Gallery: React.FC = () => {
