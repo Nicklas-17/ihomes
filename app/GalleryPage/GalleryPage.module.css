@@ -1,0 +1,55 @@
+.PageWrapper {
+  display: flex;
+  flex-direction: column;
+  height: min-content;
+}
+
+.SectionContainer {
+  background-color: var(--Bg-Color);
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.NavParentContainer {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 64px;
+  padding-right: 64px;
+  background-color: var(--Bg-Color);
+}
+
+.ImageContainer {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.HouseImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.GalleryItem {
+  height: 200px;
+  width: 200px;
+}
+
+.GalleryGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10vw;
+}
+
+.GridWrapper {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .GalleryGrid {
+    grid-template-columns: 1fr;
+  }
+}

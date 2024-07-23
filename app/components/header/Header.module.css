@@ -1,0 +1,58 @@
+.SectionContainer {
+  height: min-content;
+  background-color: var(--Bg-Color);
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+  padding: 2.5vw;
+  padding-top: 22.2vw;
+}
+
+.headerTextWrapper {
+  display: flex;
+}
+
+.SectionContainer h1 {
+  font-size: 12vw;
+  letter-spacing: -0.07em;
+  font-weight: 400;
+  text-decoration: none;
+  display: flex;
+  margin-right: 10px;
+}
+
+.headerTextWrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 2.5vw;
+}
+
+.h1Wrapper {
+  display: flex;
+  flex-direction: row;
+  /* margin-bottom: 1vw; */
+  line-height: 11vw;
+}
+
+.descriptionOne {
+  font-size: 3vw;
+  font-weight: 400;
+  /* font-style: italic; */
+  line-height: -0.1vw;
+  letter-spacing: -0.04em;
+}
+
+.descriptionOne h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ImageWrapper {
+  width: 93vw;
+  height: 36vw;
+  position: relative;
+  margin-bottom: 6.5vw;
+}

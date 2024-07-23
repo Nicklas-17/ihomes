@@ -1,0 +1,47 @@
+.AboutsectionContainer {
+  background-color: var(--Bg-Color);
+  align-items: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  display: flex;
+}
+
+.highlightsContainer {
+  width: 50%;
+  background: linear-gradient(to top, #2828284f, #24463d7c);
+  border-radius: 16px;
+}
+
+.descriptionIntro {
+  width: 50%;
+  margin-left: 5vw;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.descriptionIntro p {
+  font-size: 3vw;
+  letter-spacing: -0.1vw;
+  margin-bottom: 2vw;
+  line-height: 3vw;
+}
+
+.description p {
+  font-size: 1.1vw;
+  text-align: left;
+  font-weight: 300;
+  line-height: 1.7vw;
+  font-family: "Open Sans";
+  letter-spacing: -0.04em;
+}
+
+.Link {
+  font-size: 1.1vw;
+  font-weight: 300;
+  top: 3.5vw;
+  font-style: italic;
+  color: rgb(66, 97, 51);
+  padding-top: 2rem;
+  border-top: solid 1px #7cb091;
+}
