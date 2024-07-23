@@ -3,7 +3,7 @@ import Navbar from "../components/navbars/Navbar";
 import styles from "./GalleryPage.module.css";
 import Image from "next/image";
 
-export const houseOptions = [
+const houseOptions = [
   {
     id: 1,
     title: "Modern Family Home",
